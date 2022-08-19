@@ -1,0 +1,9 @@
+eslint::eslint
+fast-cli::fast
+gatsby-cli::gatsby
+git-standup::git-standup
+imageoptim-cli::imageOptim
+pa11y::pa11y
+parrotsay::parrotsay
+vsce::vsce
+vue-cli::vue
