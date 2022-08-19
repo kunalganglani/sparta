@@ -1,5 +1,11 @@
+casks
+dbeaver-community
 google-chrome
 brave-browser
 visual-studio-code
 virtualbox
+adobe-acrobat-reader
+mongodb-compass
+
+npm
 npm terminalizer::terminalizer

@@ -7,3 +7,12 @@ pa11y::pa11y
 parrotsay::parrotsay
 vsce::vsce
 vue-cli::vue
+chromatic::chromatic
+eslint-bankruptcy::eslint-bankruptcy
+jscpd::jscpd
+live-server::live-server
+webpack-bundle-size-analyzer::webpack-bundle-size-analyzer
+yarn::yarn
+spoof::spoof
+fkill::fkill
+playwright::playwright
