@@ -1,13 +1,17 @@
 1password
 anydesk
+adobe-acrobat-reader::Adobe Acrobat Reader DC
 aerial
 avast-security
 alfred
+brave-browser::Brave Browser
 betterzip
 blisk
 charles
 caffeine
+chromium
 dash
+dbeaver-community::DBeaver
 docker
 discord
 maccy
@@ -15,12 +19,15 @@ firefox
 figma
 github
 githubpulse
+google-chrome::Google Chrome
 google-drive
 google-trends
 grammarly-desktop
 grammarly
 imageoptim
 loom
+libreoffice
+mongodb-compass::MongoDb Compass
 microsoft-excel
 microsoft-teams
 microsoft-word
@@ -38,8 +45,10 @@ skype
 spotify
 teamviewer
 tor-browser
+utm
 vagrant
 vlc
+visual-studio-code::Visual Studio Code
 vmware-fusion
 whatsapp
 webex

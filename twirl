@@ -556,16 +556,18 @@ install_brews() {
 }
 
 install_application_via_brew() {
-    if [[ ! $(brew list --cask | grep $cask) ]]; then
-        if [[ ! $(ls /Applications | grep -i $cask) ]]; then
-            echo_install "Installing $cask"
-            brew install --cask $cask --appdir=/Applications >/dev/null
-            print_in_green "${bold}✓ installed!${normal}\n"
+    if [[ ! $(brew list --cask | grep $1) ]]; then
+        if [[ ! $(ls /Applications | grep -i $1) ]]; then
+            if [[ ! $(ls /Applications | grep -i $2) ]]; then
+                echo_install "Installing $1"
+                brew install --cask $1 --appdir=/Applications >/dev/null
+                print_in_green "${bold}✓ installed!${normal}\n"
+            fi
         else
-        	print_success_muted "$cask already installed in Apps folder. Skipped."
+        	print_success_muted "$1 already installed in Apps folder. Skipped."
         fi
     else
-    	print_success_muted "$cask already installed. Skipped."
+    	print_success_muted "$1 already installed. Skipped."
     fi
 }
 

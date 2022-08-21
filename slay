@@ -158,7 +158,9 @@ if [ -e $cwd/swag/casks ]; then
 	chapter "Installing apps via Homebrew…"
 
 	for cask in $(<$cwd/swag/casks); do
-	    install_application_via_brew $cask
+		KEY="${cask%%::*}"
+		NAME="${cask##*::}"
+		install_application_via_brew $KEY $NAME
 	done
 fi
 
