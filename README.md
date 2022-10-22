@@ -5,6 +5,12 @@
 
 It can be run multiple times on the same machine safely. It installs, upgrades, or skips packages based on what is already installed on the machine.
 
+## Prerequisites
+create ~/.bashrc and ~/.zshrc as empty files for node to be exported there
+using command
+cd ~/
+touch .bashrc && touch .zshrc
+
 ## Install
 
 Download the script:
